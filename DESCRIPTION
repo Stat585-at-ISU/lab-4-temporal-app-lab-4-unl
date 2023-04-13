@@ -16,6 +16,8 @@ Imports:
     purrr,
     tabulizer,
     readr,
+    shiny,
+    plotly,
     tibble,
     rlang
 Depends: 
