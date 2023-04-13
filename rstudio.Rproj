@@ -18,6 +18,5 @@ LineEndingConversion: Posix
 
 BuildType: Package
 PackageUseDevtools: Yes
-PackagePath: C:/Users/lwget/Documents/RStudio Git/lab-3-lab-3-team-1-1/AmesPD
 PackageInstallArgs: --no-multiarch --with-keep.source
 PackageRoxygenize: rd,collate,namespace
