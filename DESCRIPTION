@@ -16,6 +16,7 @@ Imports:
     purrr,
     tabulizer,
     readr,
+    shiny,
     tibble,
     rlang
 Depends: 
