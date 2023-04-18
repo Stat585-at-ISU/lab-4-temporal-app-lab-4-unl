@@ -11,7 +11,7 @@ time <- ames %>%
 
 server <- function(input, output){
 
-  # time$hour <- as.factor(time$hour)
+  time$hour <- as.factor(time$hour)
 
   ames_subset <- reactive({time %>% filter(`How Call was Rec'd` == input$rec)})
 

@@ -1,12 +1,12 @@
 #' app function
 #'
 #' @export
-#' @author Hiiiua
+#' @author Tyler Wiederich
 #' @importFrom shiny runApp
 
 
-ames_app <- function(){
-  appDir <- system.file("call_receive_shiny", "ames_app", package = "AmesPD")
+isu_app <- function(){
+  appDir <- system.file("call_receive_shiny", "isu_app", package = "AmesPD")
   if (appDir == ''){
     stop('Could not find this directory. Try reinstalling', call. = F)
   }
